@@ -5,7 +5,7 @@
   <p>Use the Lacuna Cloudhub API without hand-written HTTP requests, with generated models, async methods, source-generated JSON serialization, and <code>X-Api-Key</code> authentication.</p>
 
   [![NuGet](https://img.shields.io/nuget/vpre/Lacuna.Cloudhub?logo=nuget&label=NuGet.org)](https://www.nuget.org/packages/Lacuna.Cloudhub/)
-  [![CI](https://github.com/loud-technology/loud-technology-lacuna-cloudhub-sdk/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/loud-technology/loud-technology-lacuna-cloudhub-sdk/actions/workflows/dotnet.yml)
+  [![CI](https://github.com/softplan/softplan-soft-suite-lacuna-cloudhub-sdk-dotnet/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/softplan/softplan-soft-suite-lacuna-cloudhub-sdk-dotnet/actions/workflows/dotnet.yml)
   [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
   [![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
 </div>
@@ -21,7 +21,7 @@
 - **Reproducible generation** — the pinned AutoSDK version plus deterministic OpenAPI overrides produce stable operation names and authentication metadata.
 
 > [!NOTE]
-> This community SDK is maintained by loud-technology and generated from Lacuna Software's public Cloudhub OpenAPI specification. It is not an official Lacuna Software SDK.
+> This community SDK is maintained by Softplan and generated from Lacuna Software's public Cloudhub OpenAPI specification. It is not an official Lacuna Software SDK.
 
 ## Requirements
 
@@ -45,7 +45,7 @@ export LACUNA_CLOUDHUB_API_KEY="your-cloudhub-api-key"
 Then discover available trust services for a CPF:
 
 ```csharp
-using Loud.Technology.Lacuna.Cloudhub.Sdk;
+using Softplan.Soft.Suite.Lacuna.Cloudhub.Sdk;
 
 using var client = CloudhubClient.CreateFromEnvironment();
 
@@ -127,9 +127,9 @@ The script downloads the [official Swagger document](https://cloudhub.lacunasoft
 ## Build and test
 
 ```bash
-dotnet restore Loud.Technology.Lacuna.Cloudhub.Sdk.slnx
-dotnet build Loud.Technology.Lacuna.Cloudhub.Sdk.slnx --configuration Release --no-restore
-dotnet test Loud.Technology.Lacuna.Cloudhub.Sdk.slnx --configuration Release --no-build
+dotnet restore Softplan.Soft.Suite.Lacuna.Cloudhub.Sdk.slnx
+dotnet build Softplan.Soft.Suite.Lacuna.Cloudhub.Sdk.slnx --configuration Release --no-restore
+dotnet test Softplan.Soft.Suite.Lacuna.Cloudhub.Sdk.slnx --configuration Release --no-build
 ```
 
 Network-free contract tests verify the default URL, `X-Api-Key` header, routes, enum/query serialization, typed responses, byte-array handling, and model validation.

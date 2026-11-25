@@ -8,7 +8,7 @@ export LACUNA_CLOUDHUB_BASE_URL="https://cloudhub.lacunasoftware.com"
 ```
 
 ```csharp
-using Loud.Technology.Lacuna.Cloudhub.Sdk;
+using Softplan.Soft.Suite.Lacuna.Cloudhub.Sdk;
 
 using var client = CloudhubClient.CreateFromEnvironment();
 ```
