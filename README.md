@@ -4,7 +4,7 @@
   <p><strong>Cloud certificate discovery, authentication, and signing through a strongly typed .NET client.</strong></p>
   <p>Use the Lacuna Cloudhub API without hand-written HTTP requests, with generated models, async methods, source-generated JSON serialization, and <code>X-Api-Key</code> authentication.</p>
 
-  [![NuGet](https://img.shields.io/nuget/vpre/Lacuna.Cloudhub?logo=nuget&label=NuGet.org)](https://www.nuget.org/packages/Lacuna.Cloudhub/)
+  [![NuGet](https://img.shields.io/nuget/vpre/Softplan.SoftSuite.Lacuna.Cloudhub?logo=nuget&label=NuGet.org)](https://www.nuget.org/packages/Softplan.SoftSuite.Lacuna.Cloudhub/)
   [![CI](https://github.com/softplan/softplan-soft-suite-lacuna-cloudhub-sdk-dotnet/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/softplan/softplan-soft-suite-lacuna-cloudhub-sdk-dotnet/actions/workflows/dotnet.yml)
   [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
   [![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
@@ -31,7 +31,7 @@
 ## Install  
 
 ```bash
-dotnet add package Lacuna.Cloudhub
+dotnet add package Softplan.SoftSuite.Lacuna.Cloudhub
 ```
 
 ## Quick start

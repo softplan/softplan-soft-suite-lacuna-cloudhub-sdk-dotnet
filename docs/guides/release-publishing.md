@@ -4,7 +4,7 @@ Stable releases are published from semantic version tags to two independent NuGe
 
 | Destination | Authentication | Published artifact |
 |---|---|---|
-| [NuGet.org](https://www.nuget.org/packages/Lacuna.Cloudhub/) | Trusted Publishing with GitHub OIDC | `.nupkg` and its symbol package |
+| [NuGet.org](https://www.nuget.org/packages/Softplan.SoftSuite.Lacuna.Cloudhub/) | Trusted Publishing with GitHub OIDC | `.nupkg` and its symbol package |
 | [GitHub Packages](https://github.com/orgs/softplan/packages?repo_name=softplan-soft-suite-lacuna-cloudhub-sdk-dotnet) | Workflow `GITHUB_TOKEN` | `.nupkg` |
 
 The build job creates one immutable package. Both publishing jobs download that same workflow artifact, so the package contents and version are identical across registries.
@@ -15,7 +15,7 @@ Create a Trusted Publishing policy for this repository in [NuGet.org](https://ww
 
 | Policy field | Value |
 |---|---|
-| Policy owner | The NuGet.org user or organization that owns `Lacuna.Cloudhub` |
+| Policy owner | The NuGet.org user or organization that owns `Softplan.SoftSuite.Lacuna.Cloudhub` |
 | Repository Owner | `softplan` |
 | Repository | `softplan-soft-suite-lacuna-cloudhub-sdk-dotnet` |
 | Workflow File | `dotnet.yml` |

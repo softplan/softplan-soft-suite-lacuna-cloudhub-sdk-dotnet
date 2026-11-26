@@ -3,7 +3,7 @@
 ## 1. Install
 
 ```bash
-dotnet add package Lacuna.Cloudhub
+dotnet add package Softplan.SoftSuite.Lacuna.Cloudhub
 ```
 
 The SDK targets .NET 10.
