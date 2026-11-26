@@ -15,7 +15,7 @@ python3 apply-openapi-overrides.py openapi.json
 rm -rf Generated
 
 autosdk generate openapi.json \
-  --namespace Loud.Technology.Lacuna.Cloudhub.Sdk \
+  --namespace Softplan.Soft.Suite.Lacuna.Cloudhub.Sdk \
   --clientClassName CloudhubClient \
   --targetFramework net10.0 \
   --output Generated \

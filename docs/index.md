@@ -1,6 +1,6 @@
 # Lacuna Cloudhub .NET SDK
 
-A modern, strongly typed .NET client for the [Lacuna Cloudhub API](https://cloudhub.lacunasoftware.com/swagger/), maintained by loud-technology.
+A modern, strongly typed .NET client for the [Lacuna Cloudhub API](https://cloudhub.lacunasoftware.com/swagger/), maintained by Softplan.
 
 ## Highlights
 
@@ -16,7 +16,7 @@ A modern, strongly typed .NET client for the [Lacuna Cloudhub API](https://cloud
 ## First request
 
 ```csharp
-using Loud.Technology.Lacuna.Cloudhub.Sdk;
+using Softplan.Soft.Suite.Lacuna.Cloudhub.Sdk;
 
 using var client = CloudhubClient.CreateFromEnvironment();
 var services = await client.GetServicesAsync(

@@ -3,7 +3,7 @@ using System.Net;
 using System.Text;
 using System.Text.Json;
 
-namespace Loud.Technology.Lacuna.Cloudhub.Sdk.IntegrationTests;
+namespace Softplan.Soft.Suite.Lacuna.Cloudhub.Sdk.IntegrationTests;
 
 [TestClass]
 public sealed class ClientTests

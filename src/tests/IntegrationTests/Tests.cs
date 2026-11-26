@@ -1,4 +1,4 @@
-namespace Loud.Technology.Lacuna.Cloudhub.Sdk.IntegrationTests;
+namespace Softplan.Soft.Suite.Lacuna.Cloudhub.Sdk.IntegrationTests;
 
 [TestClass]
 public partial class Tests

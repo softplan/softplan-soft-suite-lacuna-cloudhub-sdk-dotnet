@@ -27,7 +27,7 @@ The SDK sends this value as `X-Api-Key` on every request. Never commit real cred
 ## 3. Discover services
 
 ```csharp
-using Loud.Technology.Lacuna.Cloudhub.Sdk;
+using Softplan.Soft.Suite.Lacuna.Cloudhub.Sdk;
 
 using var client = CloudhubClient.CreateFromEnvironment();
 var services = await client.GetServicesAsync(
